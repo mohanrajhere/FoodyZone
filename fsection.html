@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodieZone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="food.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+   
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Foodie Zone</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"></p><a href="food.html">Home</a>
+            <p class="navbar-link"></p><a href="fsection.html">Today Special</a>
+            <p class="navbar-link"></p><a href="contact.html">Contact Us</a>
+
+        </div>
+      <!--menu icon-->  
+        <div class="navbar-menu" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+      <!--side navbar-->      
+
+    <div class="side-navbar">
+        <p style="text-align:right;" onclick="closeNavbar()">
+        <i class="fa-solid fa-xmark" ></i>
+        </p>
+    
+    <div class="side-navbar-links">
+        <p class="sidenavbar-link"></p><a href="food.html">Home</a>
+        <p class="sidenavbar-link"></p><a href="fsection.html">Today Special</a>
+        <p class="sidenavbar-link"></p><a href="contact.html">Contact Us</a>
+
+    </div>
+    </div>
+
+    <!--food section-->
+    <div class="food-sec">
+        
+            <form class="search-bar" id="search">
+                <input type="text" placeholder="Search">
+                 <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+
+
+        <div class="food-collections" id="foods">
+            <div class="collection-box" >
+            
+                <img src="img/japan chicken.jpeg" alt="">
+                <div class="japan">
+               <button><b>Order</b><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div>
+                    <p style="text-align: center; color:coral; font-size:x-large;padding-left:0px; padding-top: 20px;" ><b>Japan Chicken</b></p>
+                </div>
+            </div>
+         
+            <div class="collection-box">
+                <img src="img/infused chicken.jpg" alt="">
+                <div><button><b>Order</b><i class="fa-solid fa-arrow-right"></i></button></div>  
+         <div><p style="text-align: center; color:coral; font-size:x-large; padding-left: 20px; padding-top: 20px;" ><b>Infused Chicken</b></p></div>
+             
+            </div>
+
+            <div class="collection-box" >
+                    
+                <img src="img/fish tikka.jpg" alt="">
+                <div>
+                    <button><b>Order</b><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div>
+                    <p style="text-align: center; color:coral; font-size:x-large; padding-left: 20px; padding-top: 20px;" ><b>Fish Tikka</b></p>
+                </div>
+            
+            </div>
+
+            <div class="collection-box" >
+                        
+                <img src="img/nethili-fish-fry-.jpg" alt="">
+                <div>
+                    <button><b>Order</b><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div>
+                    <p style="text-align: center; color:coral; font-size:x-large; padding-left: 20px; padding-top: 20px;" ><b>Nethili Fry</b></p>
+                </div>
+            
+            </div>
+
+            <div class="collection-box">
+                            
+                <img src="img/chicken-biriyani.jpg" alt="">
+                 <div>
+                    <button><b>Order</b><i class="fa-solid fa-arrow-right"></i></button>
+                 </div>
+                 <div>
+                    <p style="text-align: center; color:coral; font-size:x-large; padding-left: 20px; padding-top: 20px;" ><b>Chicken Biriyani</b></p>
+                 </div>
+             
+             </div>
+
+             <div class="collection-box" id="foods">
+                                
+                <img src="img/kiliparotta.jpeg" alt="">
+                <div>
+                    <button><b>Order</b><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div>
+                    <p style="text-align: center; color:coral; font-size:x-large; padding-left: 20px;padding-top: 20px;" ><b>Kili Parotta</b></p>
+                </div>
+            
+            </div>
+        </div>
+       
+                 
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <h1 style="padding-left: 10px;">Foody Zone</h1>
+        <p style="padding-left: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, itaque.</p>
+        <div style="padding-left: 10px; padding: 10px; justify-content:space-around;">
+            <i class="fa-brands fa-instagram" style="color: white;"></i>
+            <i class="fa-brands fa-twitter" style="color: white;"></i>
+            <i class="fa-brands fa-facebook" style="color: white;"></i>
+        </div>
+        <p style="padding-left: 10px;">@2024 FoodyZone.com</p>
+    </div>
+
+
+
+
+
+
+    
+    <script src="fsection.js"></script>
+    
+</body>
+</html>

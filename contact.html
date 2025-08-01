@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodieZone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="food.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+   
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Foodie Zone</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"></p><a href="food.html">Home</a>
+            <p class="navbar-link"></p><a href="fsection.html">Today Special</a>
+            <p class="navbar-link"></p><a href="contact.html">Contact Us</a>
+
+        </div>
+      <!--menu icon-->  
+        <div class="navbar-menu" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+      <!--side navbar-->      
+
+    <div class="side-navbar">
+        <p style="text-align:right;" onclick="closeNavbar()">
+        <i class="fa-solid fa-xmark" ></i>
+        </p>
+    
+    <div class="side-navbar-links">
+        <p class="sidenavbar-link"></p><a href="food.html">Home</a>
+        <p class="sidenavbar-link"></p><a href="fsection.html">Today Special</a>
+        <p class="sidenavbar-link"></p><a href="contact.html">Contact Us</a>
+
+    </div>
+    </div>
+
+    <!--ContactPage-->
+    <div class="Contact" style="margin-top: 15px;">
+        <div>
+            <h1 style="padding-top: 20px;">Contact Us</h1>
+        </div>
+
+        <div>
+            <p>Name:</p>
+             <input type="text" placeholder="Name" >
+        </div>
+
+        <div>
+            <p>Email:</p>
+             <input type="text" placeholder="Email Id" >
+        </div>
+
+        <div>
+            <p>Message:</p>
+            <textarea placeholder="Message"></textarea>
+        </div>
+
+        <div>
+            <button>Submit</button>
+        </div>
+
+
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <h1 style="padding-left: 10px;">Foody Zone</h1>
+        <p style="padding-left: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, itaque.</p>
+        <div style="padding-left: 10px; padding: 10px; justify-content:space-around;">
+            <i class="fa-brands fa-instagram" style="color: white;"></i>
+            <i class="fa-brands fa-twitter" style="color: white;"></i>
+            <i class="fa-brands fa-facebook" style="color: white;"></i>
+        </div>
+        <p style="padding-left: 10px;">@2024 FoodyZone.com</p>
+    </div>
+
+
+
+
+
+
+    
+    <script src="food.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,306 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    background-color: coral;
+
+}
+.navbar-links{
+    display: flex;
+    column-gap: 20px;
+}
+.navbar-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-links a:hover{
+    text-decoration:underline;
+    color: black;
+}
+.navbar-menu{
+    display: none;
+}
+
+
+/* mediaQuery*/
+@media screen and (max-width:800px) {
+    .navbar-menu{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .header-image{
+        display: none;
+    }
+    .service-container1{
+        display: none;
+    }
+    .service-container2{
+        flex-direction: column;
+    }
+    
+   
+}
+
+.side-navbar{
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: -60%;
+    background-color: coral;
+    color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+    transition: 1s;
+
+}
+.sidenavbar-link{
+    margin-bottom: 30px;
+}
+.side-navbar-links a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+.side-navbar-links a:hover{
+    text-decoration: underline;
+}
+
+/* header*/
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.header img{
+    padding-bottom: 30px;
+    width:300px;
+}
+
+.header-btn{
+    background-color:coral;
+    color:black;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    width: 50%;
+
+}
+
+/*service*/
+.service-container1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.service-container2{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.service-container2 div{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
+}
+.dish-co{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.dish-container1 img{
+    
+    padding: 20px;
+   width: 300px;
+   height: 200px;
+   align-self: center;
+   border-radius: 40px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dish-container1 {
+    position:relative;
+    flex-basis: 20%;
+}
+
+.dish-container1 button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: coral;
+    margin-left: 120px;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    
+}
+.news input{
+   
+    width: 80vw;
+    height: 40px;
+    border-bottom: black solid;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.news button{
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:black;
+    color: ghostwhite;
+    border-radius: 10px;
+    font-size: medium;
+}
+.footer{
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: coral;
+    padding-bottom:20px;
+}
+.food-sec{
+    margin-top: 20px;
+}
+.search-bar{
+    padding: 10px;
+    width: 80%;
+    height: 30px;
+    margin-top: 20px;
+    border: black solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.search-bar input{
+    background-color: transparent;
+    border: none;
+    padding-left: 10px;
+    width: 90%;
+}
+.search-bar input:focus{
+    outline: none;
+    
+}
+
+.collection-box img{
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left:30px;
+    margin-top: 20px;
+    align-self: center;
+
+
+}
+
+.food-collections{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around; 
+    
+}
+
+.collection-box button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: coral;
+    border-radius: 10px;
+    left: 20%;
+    margin-left: 40%;
+    margin-top: 5px;
+}
+
+.Contact{
+    margin-top: 50px;
+    align-items: center;
+    margin-left:50px;
+    background-color:antiquewhite;
+    width: 50vw;
+    height:500px;
+    border-radius: 50px;
+    border-color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.Contact{
+    margin-left: 350px;
+}
+.Contact div{
+    align-self: center;
+    padding-left: 50px;
+    padding-bottom: 35px;
+}
+.Contact input{
+    height: 40px;
+    width: 90%;
+    border-bottom: black solid;
+    border-radius: 10px;
+}
+.Contact textarea{
+    height: 60px;
+    width: 90%;
+    border-bottom: black solid;
+    border-radius: 10px;
+}
+
+.Contact input::placeholder{
+    padding-left: 10px;
+}
+
+.Contact textarea::placeholder{
+    padding-left: 8px;
+}
+
+.Contact button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 10px;
+    margin-left: 280px;
+}
